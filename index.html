@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./src/css/styles.css">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js" defer></script>
     <script src="./src/js/scripts.js" defer></script>
@@ -15,30 +15,27 @@
 <body>
     <header>
         <nav>
-            <div class="menu top-row">
-                <p>TIM.</p>
-                <p>*RÉPERTOIRE DES STAGIAIRES*</p>
-                <p>2025</p>
+            <div class="section-title">
+                <h2 class="logo">TIM.</h2>
+                <h2 class="title">*RÉPERTOIRE DES STAGIAIRES*</h2>
+                <h2 class="year">2025</h2>
             </div>
-            <div class="menu bottom-row">
-                <input type="text">
-                <button>TEMP</button>
+            <div class="section-search">
+                <div class="wrapper-input">
+                    <i class="fas fa-search icon"></i>
+                    <input type="text" placeholder="Rechercher...">
+                </div>
+                <button><i class="fas fa-bars icon"></i></button>
             </div>
         </nav>
     </header>
     <main>
-        <div>
-            <h1>STAGIAIRES*</h1>
-        </div>
-        <div>
-            <p>Les stages se déroulent du: 30 Mars au 15 Mai 2026<br>Les étudiants sont disponibles 4 à 5 jours par semaine 32 hrs / semaine</p>
-        </div>
+        <h1>STAGIAIRES*</h1>
+        <h2>Les stages se déroulent du: 30 Mars au 15 Mai 2026<br>Les étudiants sont disponibles 4 à 5 jours par semaine 32 hrs / semaine</h2>
         <div id="app" class="wrapper-students">
-
+            <p>temp</p>
         </div>
     </main>
-    <footer>
-        <p>© 2025 Collège Montmorency, Tous droits réservés.</p>
-    </footer>
+    <footer>© 2025 Collège Montmorency, Tous droits réservés.</footer>
 </body>
 </html>

@@ -3,6 +3,109 @@
   src: url('../fonts/ClashDisplay-Variable.ttf') format('truetype');
 }
 
-body {
+html {
     font-family: "ClashDisplay-Variable";
+}
+
+:root {
+    --border-style: 1px solid black;
+    --h1-size-style: 5rem;
+    --h2-size-style: 2rem;
+    --footer-size-style: 0.9rem;
+    --normal-size-style: 1.2rem;
+    --h3-weight-style: 600;
+    --normal-weight-style: 500;
+    --nav-top-padding-style: 0.2rem 1.5rem;
+    --nav-bottom-padding-style: 0.4rem 1.5rem;
+    --icon-size: 20px;
+    --search-color: rgb(87, 87, 87);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-title {
+    display: flex;
+    border-bottom: var(--border-style);
+}
+
+.section-search {
+    display: flex;
+    border-bottom: var(--border-style);
+}
+
+.logo {
+    border-right: var(--border-style);
+}
+
+nav h2 {
+    padding: var(--nav-top-padding-style);
+}
+
+.title {
+    width: 100%;
+}
+
+nav input {
+    border: none;
+    margin-left: 16px;
+    font-size: var(--normal-size-style);
+    font-weight: var(--normal-weight-style);
+    color: var(--search-color);
+    font-family: "ClashDisplay-Variable";
+    width: 100%;
+}
+
+nav input:focus {
+  outline: none;
+}
+
+.wrapper-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: var(--nav-bottom-padding-style);
+    border-right: var(--border-style);
+    width: 100%;
+}
+
+.wrapper-input i {
+    font-size: var(--icon-size);
+}
+
+nav button {
+    border: none;
+    background: none;
+    font-size: var(--icon-size);
+    padding: 0 6rem;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: var(--h1-size-style);
+    border-bottom: var(--border-style);
+    padding: 3rem 1.5rem;
+}
+
+main h2 {
+    border-bottom: var(--border-style);
+    font-weight: var(--h3-weight-style);
+    font-size: var(--h2-size-style);
+    text-align: center;
+    padding: 8rem 0;
+}
+
+.wrapper-students {
+    padding: 8rem 0;
+    text-align: center;
+}
+
+footer {
+    border-top: var(--border-style);
+    font-size: var(--footer-size-style);
+    text-align: center;
+    padding-top: 3rem;
 }
