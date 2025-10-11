@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'ClashDisplay-Variable';
+  src: url('../fonts/ClashDisplay-Variable.ttf') format('truetype');
+}
+
+body {
+    font-family: "ClashDisplay-Variable";
+}
