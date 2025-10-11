@@ -1,0 +1,90 @@
+[
+    {
+        "firstName": "Émeryk",
+        "lastName": "BÉLISLE",
+        "photo": "./src/img/students/test_student.jpg",
+        "interests": ["Jeux Vidéo", "Web", "Modelisation 3D"],
+        "telephone": "514-974-4009",
+        "email": "emeryk.belisle@gmail.com",
+        "location": "Saint-Eustache, QC",
+        "portfolio": "https://emerykbelisle.bennerwebs.com",
+        "cv": "./src/cv/emeryk_belisle_cv.pdf"
+    },
+    {
+        "firstName": "Alexandre",
+        "lastName": "GENDRON",
+        "photo": "./src/img/students/test_student2.jpg",
+        "interests": ["Design", "Jeux Vidéo", "Web"],
+        "telephone": "123-456-7890",
+        "email": "temp@gmail.com",
+        "location": "Saint-Eustache, QC",
+        "portfolio": "https://temp.com",
+        "cv": "../cv/temp.pdf"
+    },
+    {
+        "firstName": "Ahmed",
+        "lastName": "KAISSOUMI",
+        "photo": "./src/img/students/test_student3.jpg",
+        "interests": ["Installation Numérique", "Design", "Animation 3D"],
+        "telephone": "123-456-7890",
+        "email": "temp@gmail.com",
+        "location": "Montréal, QC",
+        "portfolio": "https://temp.com",
+        "cv": "../cv/temp.pdf"
+    },
+    {
+        "firstName": "Rafaël",
+        "lastName": "ANGON DUBÉ",
+        "photo": "./src/img/students/test_student4.jpg",
+        "interests": ["Vidéo", "Installation Numérique", "Animation 2D"],
+        "telephone": "123-456-7890",
+        "email": "temp@gmail.com",
+        "location": "Montréal, QC",
+        "portfolio": "https://temp.com",
+        "cv": "../cv/temp.pdf"
+    },
+    {
+        "firstName": "Elie",
+        "lastName": "DAHER",
+        "photo": "./src/img/students/test_student5.jpg",
+        "interests": ["Modelisation 3D", "Animation 3D", "Jeux Vidéo"],
+        "telephone": "123-456-7890",
+        "email": "temp@gmail.com",
+        "location": "Montréal, QC",
+        "portfolio": "https://temp.com",
+        "cv": "../cv/temp.pdf"
+    },
+    {
+        "firstName": "Mikaël",
+        "lastName": "ARSENEAU",
+        "photo": "./src/img/students/test_student6.jpg",
+        "interests": ["Web", "Design", "Installation Numérique"],
+        "telephone": "123-456-7890",
+        "email": "temp@gmail.com",
+        "location": "Montréal, QC",
+        "portfolio": "https://temp.com",
+        "cv": "../cv/temp.pdf"
+    },
+    {
+        "firstName": "Justin",
+        "lastName": "MONTPETIT",
+        "photo": "./src/img/students/test_student7.avif",
+        "interests": ["Installation Numérique", "Design", "Web"],
+        "telephone": "123-456-7890",
+        "email": "temp@gmail.com",
+        "location": "Montréal, QC",
+        "portfolio": "https://temp.com",
+        "cv": "../cv/temp.pdf"
+    },
+    {
+        "firstName": "Mathieu",
+        "lastName": "WILLETT",
+        "photo": "./src/img/students/test_student8.jpg",
+        "interests": ["Web", "Jeux Vidéo", "Design"],
+        "telephone": "123-456-7890",
+        "email": "temp@gmail.com",
+        "location": "Montréal, QC",
+        "portfolio": "https://temp.com",
+        "cv": "../cv/temp.pdf"
+    }
+]
