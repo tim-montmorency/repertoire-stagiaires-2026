@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Répertoire Stagiaires</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <div class="wrapper-menu">
-                    <div class="wrapper-burger-menu" :class="{open: isMenuOpen}">
+                    <div class="wrapper-burger-menu">
                         <button @click="selectedCategory='Tout'" :class="{selected: selectedCategory == 'Tout'}">TOUT</button>
                         <button @click="selectedCategory='Animation 3D'" :class="{selected: selectedCategory == 'Animation 3D'}">ANIMATION 3D</button>
                         <button @click="selectedCategory='Modelisation 3D'" :class="{selected: selectedCategory == 'Modelisation 3D'}">MODELISATION 3D</button>
