@@ -34,7 +34,7 @@ html {
 
 a {
     text-decoration: none;
-    color: black;
+    color: inherit;
     transition: color 0.5s;
 }
 
@@ -148,12 +148,6 @@ nav button:hover {
     border-bottom: var(--border-bottom-style);
 }
 
-.wrapper-burger-menu.open {
-  transform: translateY(0);
-  pointer-events: auto;
-
-}
-
 .wrapper-burger-menu button {
     font-size: var(--h3-size-style);
     padding: 0.5vw;
@@ -162,6 +156,7 @@ nav button:hover {
     align-self: center;
     justify-self: center;
     border: 2px solid black;
+    color: black;
 }
 
 h1 {
