@@ -1,19 +1,10 @@
 const app = Vue.createApp({
   data() {
     return {
-        isMenuOpen: false,
         selectedCategory: "Tout",
         searchResult: "",
         students: [],
     }
-  },
-  methods: {
-    toggleBurgerMenu() {
-      this.isMenuOpen = !this.isMenuOpen;
-    },
-    closeBurgerMenu() {
-      this.isMenuOpen = false;
-    },
   },
   mounted() {
     fetch('./src/js/students.json')

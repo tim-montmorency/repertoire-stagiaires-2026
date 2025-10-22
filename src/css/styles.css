@@ -10,19 +10,19 @@ html {
 :root {
     --border-top-style: 2px solid rgb(255, 255, 255);
     --border-bottom-style: 2px solid black;
-    --h1-size-style: 5rem;
-    --h2-size-style: 2rem;
-    --h3-size-style: 1.4rem;
-    --footer-size-style: 1.1rem;
-    --normal-size-style: 1.2rem;
+    --h1-size-style: 5vw;
+    --h2-size-style: 2vw;
+    --h3-size-style: 1.1vw;
+    --footer-size-style: 1.1vw;
+    --normal-size-style: 1.2vw;
     --h3-weight-style: 600;
     --normal-weight-style: 500;
-    --nav-top-padding-style: 1.2rem 1.5rem;
-    --nav-bottom-padding-style: 1.2rem 1.5rem;
+    --nav-top-padding-style: 1.2vw 1.5vw;
+    --nav-bottom-padding-style: 1.2vw 1.5vw;
     --icon-size: 20px;
     --search-color: rgb(87, 87, 87);
-    --accent-color: #E0FF57;
-    --accent-color-2: #FF8DF7;
+    --accent-color: #e05558;
+    --accent-color-2: white;
 }
 
 * {
@@ -43,7 +43,7 @@ body {
 
 
 a:hover {
-    color: var(--accent-color-2);
+    color: white;
 }
 
 header {
@@ -67,6 +67,7 @@ header.hide-on-scroll {
 
 .section-title h2 {
     font-weight: 600;
+    font-size: 2.5vw;
 }
 
 .section-search {
@@ -105,7 +106,6 @@ nav input:focus {
     display: flex;
     align-items: center;
     padding: var(--nav-bottom-padding-style);
-    border-right: var(--border-bottom-style);
     width: 100%;
 }
 
@@ -131,29 +131,20 @@ button {
 }
 
 nav button {
-    background-color: white;
-    font-size: var(--icon-size);
-    padding: 0 10rem;
     transition: color 0.5s, background-color 0.5s;
 }
 
 nav button:hover {
-    background-color: var(--accent-color-2);
+    background-color: var(--accent-color);
 }
 
 .wrapper-burger-menu {
-    position: absolute;
-    right: 0;
     display: flex;
-    top: 100%;
-    flex-direction: column;
     background-color: white;
-    border-left: var(--border-bottom-style);
+    padding: 0.5vw 1vw;
+    justify-content: center;
+
     border-bottom: var(--border-bottom-style);
-    z-index: -1;
-    transform: translateY(-101%);
-    pointer-events: none;
-    transition: transform 0.5s ease-out;
 }
 
 .wrapper-burger-menu.open {
@@ -164,14 +155,19 @@ nav button:hover {
 
 .wrapper-burger-menu button {
     font-size: var(--h3-size-style);
-    padding: 0.2rem 3.97rem;
+    padding: 0.5vw;
+    margin: 0 0.3vw;
+    font-weight: 900;
+    align-self: center;
+    justify-self: center;
+    border: 2px solid black;
 }
 
 h1 {
     font-size: var(--h1-size-style);
     border-bottom: var(--border-bottom-style);
 
-    padding: 3rem 1.5rem;
+    padding: 3vw 1.5vw;
     background-color: var(--accent-color);
 }
 
@@ -180,7 +176,7 @@ main h2 {
     font-weight: var(--h3-weight-style);
     font-size: var(--h2-size-style);
     text-align: center;
-    padding: 8rem 0;
+    padding: 8vw 0;
     background-color: white;
 }
 
@@ -202,7 +198,7 @@ main h2 {
 }
 
 .no-results {
-    font-size: 2rem;
+    font-size: 2vw;
     font-weight: 500;
     text-align: center;
     color: black;
@@ -218,7 +214,7 @@ main h2 {
     font-size: var(--h3-size-style);
     font-weight: var(--h3-weight-style);
     display: grid;
-    grid-template-columns: 1fr 1fr 0.3fr;
+    grid-template-columns: 1fr 1fr 0.4fr;
     grid-template-rows: 1.5fr 1fr 1fr;
     width: 100%;
     aspect-ratio: 16 / 9;
@@ -234,13 +230,13 @@ main h2 {
 }
 
 .student-card i {
-    margin-right: 0.3rem;
+    margin-right: 0.3vw;
 }
 
 .student-card .name {
     font-size: 2.5vw;
     font-weight: var(--h3-weight-style);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5vw;
     margin-top: auto;
     margin-bottom: auto;
     color: var(--accent-color-2);
@@ -263,7 +259,7 @@ main h2 {
     font-family: "Archivo";
     font-weight: 100;
     align-self: end;
-    color: #E0FF57;
+    color: var(--accent-color);
 }
 
 .wrapper-documents {
@@ -284,7 +280,7 @@ footer {
     border-top: var(--border-bottom-style);
     font-size: var(--footer-size-style);
     text-align: center;
-    padding: 3rem 0;
+    padding: 3vw 0;
     background-color: black;
     color: white;
 }
@@ -307,3 +303,90 @@ footer {
     color: var(--accent-color);
     font-weight: 600;
 }
+
+@media (max-aspect-ratio: 1/1) {
+    .wrapper-students {
+        grid-template-columns: 1fr;
+        width: 90%;
+        gap: 5vw;
+    }
+
+    .student-card .name {
+        font-size: 6vw;
+    }
+
+    .section-title h2 {
+        font-size: 4.4vw;
+    }
+    
+    .section-search {
+        display: flex;
+        border-bottom: var(--border-bottom-style);
+        padding: 2vw 0;
+    }
+    
+    .logo {
+        border-right: var(--border-top-style);
+    }
+    
+    nav h2 {
+        padding: var(--nav-top-padding-style);
+    }
+    
+    nav input {
+        margin-left: 8px;
+        font-size: 4vw;
+    }
+    
+    .wrapper-input i {
+        font-size: 3.5vw;
+        margin: 1vw 0;
+    }
+    
+    .wrapper-burger-menu {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2vw 1vw;
+    }
+    
+    .wrapper-burger-menu button {
+        font-size: 3.5vw;
+        margin: 0.5vw 0.5vw;
+        font-weight: 600;
+    }
+    
+    h1 {
+        font-size: 12vw;
+        padding: 6vw 1.5vw;
+    }
+    
+    main h2 {
+        font-size: 3.5vw;
+        padding: 8vw 4vw;
+    }
+    
+    .no-results {
+        font-size: 5vw;
+    }
+
+    .wrapper-interests {
+        font-size: 3vw;
+    }
+    
+    .wrapper-contacts {
+        font-size: 2.7vw;
+    }
+    
+    .wrapper-documents {
+        font-size: 2.7vw;
+    }
+    
+    .wrapper-contacts *, .wrapper-documents *, .wrapper-interests * {
+        margin-top: 0.4vw;
+    }
+    
+    footer {
+        font-size: 3vw;
+    }
+}
+  

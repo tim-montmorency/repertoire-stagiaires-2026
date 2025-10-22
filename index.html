@@ -25,19 +25,19 @@
                         <i class="fas fa-search icon"></i>
                         <input type="text" placeholder="Rechercher..." v-model="searchResult">
                     </div>
-                    <div class="wrapper-menu">
-                        <button @click="toggleBurgerMenu()" :class="{selected: isMenuOpen}"><i class="fas fa-bars icon"></i></button>
-                        <div class="wrapper-burger-menu" :class="{open: isMenuOpen}">
-                            <button @click="closeBurgerMenu(), selectedCategory='Tout'" :class="{selected: selectedCategory == 'Tout'}">TOUT</button>
-                            <button @click="closeBurgerMenu(), selectedCategory='Animation 3D'" :class="{selected: selectedCategory == 'Animation 3D'}">ANIMATION 3D</button>
-                            <button @click="closeBurgerMenu(), selectedCategory='Modelisation 3D'" :class="{selected: selectedCategory == 'Modelisation 3D'}">MODELISATION 3D</button>
-                            <button @click="closeBurgerMenu(), selectedCategory='Vidéo'" :class="{selected: selectedCategory == 'Vidéo'}">VIDÉO</button>
-                            <button @click="closeBurgerMenu(), selectedCategory='Design'" :class="{selected: selectedCategory == 'Design'}">DESIGN</button>
-                            <button @click="closeBurgerMenu(), selectedCategory='Web'" :class="{selected: selectedCategory == 'Web'}">WEB</button>
-                            <button @click="closeBurgerMenu(), selectedCategory='Animation 2D'" :class="{selected: selectedCategory == 'Animation 2D'}">ANIMATION 2D</button>
-                            <button @click="closeBurgerMenu(), selectedCategory='Installation Numérique'" :class="{selected: selectedCategory == 'Installation Numérique'}">INSTALLATION</button>
-                            <button @click="closeBurgerMenu(), selectedCategory='Jeux Vidéo'" :class="{selected: selectedCategory == 'Jeux Vidéo'}">JEUX VIDÉO</button>
-                        </div>
+                </div>
+                <div class="wrapper-menu">
+                    <div class="wrapper-burger-menu" :class="{open: isMenuOpen}">
+                        <button @click="selectedCategory='Tout'" :class="{selected: selectedCategory == 'Tout'}">TOUT</button>
+                        <button @click="selectedCategory='Animation 3D'" :class="{selected: selectedCategory == 'Animation 3D'}">ANIMATION 3D</button>
+                        <button @click="selectedCategory='Modelisation 3D'" :class="{selected: selectedCategory == 'Modelisation 3D'}">MODELISATION 3D</button>
+                        <button @click="selectedCategory='Vidéo'" :class="{selected: selectedCategory == 'Vidéo'}">VIDÉO</button>
+                        <button @click="selectedCategory='Design'" :class="{selected: selectedCategory == 'Design'}">DESIGN</button>
+                        <button @click="selectedCategory='Web'" :class="{selected: selectedCategory == 'Web'}">WEB</button>
+                        <button @click="selectedCategory='Animation 2D'" :class="{selected: selectedCategory == 'Animation 2D'}">ANIMATION 2D</button>
+                        <button @click="selectedCategory='Installation Numérique'" :class="{selected: selectedCategory == 'Installation Numérique'}">INSTALLATION</button>
+                        <button @click="selectedCategory='Jeux Vidéo'" :class="{selected: selectedCategory == 'Jeux Vidéo'}">JEUX VIDÉO</button>
+                        <button @click="selectedCategory='Audio'" :class="{selected: selectedCategory == 'Audio'}">AUDIO</button>
                     </div>
                 </div>
             </nav>
@@ -50,7 +50,7 @@
                     <template v-for="student in students">
                         <div class="student-card" v-if="(selectedCategory === 'Tout' || student.interests.some(interest => interest === selectedCategory)) && (searchResult === '' || student.firstName.toLowerCase().includes(searchResult.toLowerCase()) || student.lastName.toLowerCase().includes(searchResult.toLowerCase()) || student.interests.some(interest => interest.toLowerCase().includes(searchResult.toLowerCase())))">
                         <img :src="student.photo" :alt="`${student.firstName} ${student.lastName} photo`">
-                        <p class="name">{{student.firstName}}<br>{{student.lastName}}*</p>
+                        <p class="name">{{student.firstName}}<br>{{student.lastName}}</p>
                         <div class="wrapper-interests">
                             <p class="interests" v-for="interest in student.interests" :class="{'category-selected': interest === selectedCategory}">{{ interest }}</p>
                         </div>
