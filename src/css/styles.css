@@ -5,6 +5,7 @@
 
 html {
     font-family: "ClashDisplay-Variable";
+    overscroll-behavior: none;
 }
 
 :root {
