@@ -34,7 +34,7 @@ html {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: black;
     transition: color 0.5s;
 }
 
@@ -388,6 +388,7 @@ footer {
     
     footer {
         font-size: 3vw;
+        padding: 5vw;
     }
 }
   
