@@ -68,7 +68,8 @@ header.hide-on-scroll {
 
 .section-title h2 {
     font-weight: 600;
-    font-size: 2.5vw;
+    font-size: 2vw;
+    padding: 0.5vw;
 }
 
 .section-search {
@@ -106,7 +107,7 @@ nav input:focus {
     position: relative;
     display: flex;
     align-items: center;
-    padding: var(--nav-bottom-padding-style);
+    padding: 1vw;
     width: 100%;
 }
 
@@ -312,7 +313,8 @@ footer {
     }
 
     .section-title h2 {
-        font-size: 4.2vw;
+        font-size: 3.8vw;
+        padding: 3vw;
     }
     
     .section-search {

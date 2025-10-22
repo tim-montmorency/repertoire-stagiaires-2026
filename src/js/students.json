@@ -7,6 +7,7 @@
         "telephone": "514-974-4009",
         "email": "emeryk.belisle@gmail.com",
         "location": "Saint-Eustache, QC",
+        "linkedin": "https://www.linkedin.com/in/emeryk-belisle/",
         "portfolio": "https://emerykbelisle.bennerwebs.com",
         "cv": "./src/cv/emeryk_belisle_cv.pdf"
     },
@@ -18,6 +19,7 @@
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
         "location": "Saint-Eustache, QC",
+        "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
         "cv": "../cv/temp.pdf"
     },
@@ -29,6 +31,7 @@
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
         "location": "Montréal, QC",
+        "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
         "cv": "../cv/temp.pdf"
     },
@@ -40,6 +43,7 @@
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
         "location": "Montréal, QC",
+        "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
         "cv": "../cv/temp.pdf"
     },
@@ -51,6 +55,7 @@
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
         "location": "Montréal, QC",
+        "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
         "cv": "../cv/temp.pdf"
     },
@@ -62,6 +67,7 @@
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
         "location": "Montréal, QC",
+        "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
         "cv": "../cv/temp.pdf"
     },
@@ -73,6 +79,7 @@
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
         "location": "Montréal, QC",
+        "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
         "cv": "../cv/temp.pdf"
     },
@@ -84,6 +91,7 @@
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
         "location": "Montréal, QC",
+        "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
         "cv": "../cv/temp.pdf"
     },
@@ -95,6 +103,7 @@
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
         "location": "Montréal, QC",
+        "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
         "cv": "../cv/temp.pdf"
     }
