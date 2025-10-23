@@ -24,6 +24,7 @@ let lastScrollY = window.scrollY;
 const header = document.querySelector('header');
 const burgerMenu = document.querySelector(".wrapper-burger-menu")
 
+// Hide header on scroll down, show on scroll up
 window.addEventListener('scroll', () => {
   if (window.scrollY > lastScrollY) {
     header.classList.add('hide-on-scroll');
