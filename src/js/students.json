@@ -9,7 +9,7 @@
         "location": "Saint-Eustache, QC",
         "linkedin": "https://www.linkedin.com/in/emeryk-belisle/",
         "portfolio": "https://emerykbelisle.bennerwebs.com",
-        "cv": "./src/cv/emeryk_belisle_cv.pdf"
+        "cv": "./src/cv/belisle_emeryk_cv.pdf"
     },
     {
         "firstName": "Alexandre",
@@ -21,7 +21,7 @@
         "location": "Saint-Eustache, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/gendron_alexandre_cv.pdf"
     },
     {
         "firstName": "Ahmed",
@@ -33,7 +33,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/kaissoumi_ahmed_cv.pdf"
     },
     {
         "firstName": "Rafaël",
@@ -45,7 +45,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/angon_dube_rafael_cv.pdf"
     },
     {
         "firstName": "Elie",
@@ -57,7 +57,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/daher_elie_cv.pdf"
     },
     {
         "firstName": "Mikaël",
@@ -69,7 +69,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/arseneau_mikael_cv.pdf"
     },
     {
         "firstName": "Justin",
@@ -81,7 +81,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/montpetit_justin_cv.pdf"
     },
     {
         "firstName": "Mathieu",
@@ -93,7 +93,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/willett_mathieu_cv.pdf"
     },
     {
         "firstName": "Matis",
@@ -105,7 +105,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/ghariani_matis_cv.pdf"
     },
     {
         "firstName": "Marie-Lili",
@@ -117,7 +117,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/laprise_marie_lili_cv.pdf"
     },
     {
         "firstName": "Manel",
@@ -129,7 +129,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/yaya_manel_cv.pdf"
     },
     {
         "firstName": "Anton",
@@ -141,7 +141,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/nikulin_anton_cv.pdf"
     },
     {
         "firstName": "Yannick",
@@ -153,7 +153,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/chamberland_yannick_cv.pdf"
     },
     {
         "firstName": "Amira",
@@ -165,19 +165,19 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/tounekti_amira_cv.pdf"
     },
     {
-        "firstName": "Lu",
-        "lastName": "TING YUNG",
-        "photo": "./src/img/students/test_student2.jpg",
+        "firstName": "Ting Yung Terry",
+        "lastName": "LU",
+        "photo": "./src/img/students/tingyung_lu.jpg",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
-        "telephone": "123-456-7890",
-        "email": "temp@gmail.com",
-        "location": "Montréal, QC",
+        "telephone": "438-449-8959",
+        "email": "terrylty18@gmail.com",
+        "location": "Laval, Qc",
         "linkedin": "https://temp.com",
-        "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "portfolio": "https://2lung2.github.io/",
+        "cv": "./src/cv/lu_tingyung_cv.pdf"
     },
     {
         "firstName": "Edelwyn",
@@ -189,7 +189,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/ledru_edelwyn_cv.pdf"
     },
     {
         "firstName": "Jade",
@@ -201,7 +201,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/hebert_jade_cv.pdf"
     },
     {
         "firstName": "Jad",
@@ -213,7 +213,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/saloumi_jad_cv.pdf"
     },
     {
         "firstName": "Keven",
@@ -225,7 +225,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/malric_keven_cv.pdf"
     },
     {
         "firstName": "Radhouane",
@@ -237,7 +237,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/kordan_radhouane_cv.pdf"
     },
     {
         "firstName": "Ryan",
@@ -249,7 +249,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/dufault_ryan_cv.pdf"
     },
     {
         "firstName": "Mégane",
@@ -261,7 +261,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/ranger_megane_cv.pdf"
     },
     {
         "firstName": "Félix",
@@ -273,7 +273,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/lavoie_felix_cv.pdf"
     },
     {
         "firstName": "Patricia",
@@ -285,7 +285,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/nassif_patricia_cv.pdf"
     },
     {
         "firstName": "Érick",
@@ -297,7 +297,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/ouellette_erick_cv.pdf"
     },
     {
         "firstName": "Dana",
@@ -309,7 +309,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/saavedra_torrano_dana_cv.pdf"
     },
     {
         "firstName": "Benjamin",
@@ -321,7 +321,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/ferland_benjamin_cv.pdf"
     },
     {
         "firstName": "Kristy",
@@ -333,7 +333,7 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/moussally_kristy_cv.pdf"
     },
     {
         "firstName": "Thearylou",
@@ -345,6 +345,6 @@
         "location": "Montréal, QC",
         "linkedin": "https://temp.com",
         "portfolio": "https://temp.com",
-        "cv": "../cv/temp.pdf"
+        "cv": "./src/cv/lach_thearylou_cv.pdf"
     }
 ]
