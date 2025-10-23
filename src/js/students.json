@@ -86,7 +86,7 @@
     {
         "firstName": "Mathieu",
         "lastName": "WILLETT",
-        "photo": "./src/img/students/test_student8.jpg",
+        "photo": "./src/img/students/mathieu_willett.jpg",
         "interests": ["Installation Numérique", "Web", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
