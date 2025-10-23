@@ -2,7 +2,7 @@
     {
         "firstName": "Émeryk",
         "lastName": "BÉLISLE",
-        "photo": "./src/img/students/test_student.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Jeux Vidéo", "Web", "Modelisation 3D"],
         "telephone": "514-974-4009",
         "email": "emeryk.belisle@gmail.com",
@@ -14,7 +14,7 @@
     {
         "firstName": "Alexandre",
         "lastName": "GENDRON",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Design", "Jeux Vidéo", "Web"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -26,7 +26,7 @@
     {
         "firstName": "Ahmed",
         "lastName": "KAISSOUMI",
-        "photo": "./src/img/students/kaissoumi_ahmed.jpg",
+        "photo": "./src/img/students/kaissoumi_ahmed.webp",
         "interests": ["Installation Numérique", "Design", "Animation 3D"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -38,7 +38,7 @@
     {
         "firstName": "Rafaël",
         "lastName": "ANGON DUBÉ",
-        "photo": "./src/img/students/test_student4.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Vidéo", "Installation Numérique", "Animation 2D"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -50,7 +50,7 @@
     {
         "firstName": "Elie",
         "lastName": "DAHER",
-        "photo": "./src/img/students/test_student5.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Modelisation 3D", "Animation 3D", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -62,7 +62,7 @@
     {
         "firstName": "Mikaël",
         "lastName": "ARSENEAU",
-        "photo": "./src/img/students/test_student6.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Web", "Design", "Installation Numérique"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -74,7 +74,7 @@
     {
         "firstName": "Justin",
         "lastName": "MONTPETIT",
-        "photo": "./src/img/students/test_student7.avif",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Installation Numérique", "Design", "Web"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -86,7 +86,7 @@
     {
         "firstName": "Mathieu",
         "lastName": "WILLETT",
-        "photo": "./src/img/students/mathieu_willett.JPG",
+        "photo": "./src/img/students/mathieu_willett.webp",
         "interests": ["Installation Numérique", "Web", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -98,7 +98,7 @@
     {
         "firstName": "Matis",
         "lastName": "GHARIANI",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -110,7 +110,7 @@
     {
         "firstName": "Marie-Lili",
         "lastName": "LAPRISE",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -122,7 +122,7 @@
     {
         "firstName": "Manel",
         "lastName": "YAYA",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -134,7 +134,7 @@
     {
         "firstName": "Anton",
         "lastName": "NIKULIN",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -146,7 +146,7 @@
     {
         "firstName": "Yannick",
         "lastName": "CHAMBERLAND",
-        "photo": "./src/img/students/yannick_chamberland.jpg",
+        "photo": "./src/img/students/yannick_chamberland.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -158,7 +158,7 @@
     {
         "firstName": "Amira",
         "lastName": "TOUNEKTI",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -170,7 +170,7 @@
     {
         "firstName": "Ting Yung Terry",
         "lastName": "LU",
-        "photo": "./src/img/students/tingyung_lu.JPG",
+        "photo": "./src/img/students/tingyung_lu.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "438-449-8959",
         "email": "terrylty18@gmail.com",
@@ -182,7 +182,7 @@
     {
         "firstName": "Edelwyn",
         "lastName": "LEDRU",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -194,7 +194,7 @@
     {
         "firstName": "Jade",
         "lastName": "HÉBERT",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -206,7 +206,7 @@
     {
         "firstName": "Jad",
         "lastName": "SALOUMI",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -218,7 +218,7 @@
     {
         "firstName": "Keven",
         "lastName": "MALRIC",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -230,7 +230,7 @@
     {
         "firstName": "Radhouane",
         "lastName": "KORDAN",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -242,7 +242,7 @@
     {
         "firstName": "Ryan",
         "lastName": "DUFAULT",
-        "photo": "./src/img/students/ryan_dufault.jpg",
+        "photo": "./src/img/students/ryan_dufault.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -254,7 +254,7 @@
     {
         "firstName": "Mégane",
         "lastName": "RANGER",
-        "photo": "./src/img/students/megane_ranger.jpg",
+        "photo": "./src/img/students/megane_ranger.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -266,7 +266,7 @@
     {
         "firstName": "Félix",
         "lastName": "LAVOIE",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -278,7 +278,7 @@
     {
         "firstName": "Patricia",
         "lastName": "NASSIF",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -290,7 +290,7 @@
     {
         "firstName": "Érick",
         "lastName": "OUELLETTE",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -302,7 +302,7 @@
     {
         "firstName": "Dana",
         "lastName": "SAAVEDRA-TORRANO",
-        "photo": "./src/img/students/dana_saavedra-torrano.jpg",
+        "photo": "./src/img/students/dana_saavedra-torrano.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -314,7 +314,7 @@
     {
         "firstName": "Benjamin",
         "lastName": "FERLAND",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -326,7 +326,7 @@
     {
         "firstName": "Kristy",
         "lastName": "MOUSSALLY",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/temp.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -338,7 +338,7 @@
     {
         "firstName": "Thearylou",
         "lastName": "LACH",
-        "photo": "./src/img/students/thearylou_lach.jpg",
+        "photo": "./src/img/students/thearylou_lach.webp",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
