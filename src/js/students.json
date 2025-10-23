@@ -86,7 +86,7 @@
     {
         "firstName": "Mathieu",
         "lastName": "WILLETT",
-        "photo": "./src/img/students/mathieu_willett.jpg",
+        "photo": "./src/img/students/mathieu_willett.JPG",
         "interests": ["Installation Numérique", "Web", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
@@ -170,7 +170,7 @@
     {
         "firstName": "Ting Yung Terry",
         "lastName": "LU",
-        "photo": "./src/img/students/tingyung_lu.jpg",
+        "photo": "./src/img/students/tingyung_lu.JPG",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "438-449-8959",
         "email": "terrylty18@gmail.com",
