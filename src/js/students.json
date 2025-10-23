@@ -302,7 +302,7 @@
     {
         "firstName": "Dana",
         "lastName": "SAAVEDRA-TORRANO",
-        "photo": "./src/img/students/test_student2.jpg",
+        "photo": "./src/img/students/dana_saavedra-torrano.jpg",
         "interests": ["Audio", "Design", "Jeux Vidéo"],
         "telephone": "123-456-7890",
         "email": "temp@gmail.com",
