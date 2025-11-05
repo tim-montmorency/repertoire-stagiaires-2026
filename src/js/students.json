@@ -64,11 +64,11 @@
     "lastName": "ARSENEAU",
     "photo": "./src/img/students/mikael_arseneau.webp",
     "interests": ["Web", "Vidéo", "Design Web"],
-    "telephone": "123-456-7890",
-    "email": "temp@gmail.com",
-    "location": "Montréal, QC",
-    "linkedin": "https://temp.com",
-    "portfolio": "https://temp.com",
+    "telephone": "514-889-9248",
+    "email": "mikael.arseneau@hotmail.ca",
+    "location": "Laval, QC",
+    "linkedin": "www.linkedin.com/in/mikael-arseneau",
+    "portfolio": "https://mikaelarseneau.github.io/portfolio-Mikael-Arseneau/index.html",
     "cv": "./src/cv/arseneau_mikael_cv.pdf"
   },
   {
@@ -223,7 +223,7 @@
     "telephone": "438-379-0330",
     "email": "ryandufault1219@gmail.com",
     "location": "Saint-Eustache, QC",
-    "linkedin": "https://temp.com",
+    "linkedin": "https://www.linkedin.com/in/ryandufault/",
     "portfolio": "ryandufault.com",
     "cv": "./src/cv/dufault_ryan_cv.pdf"
   },
