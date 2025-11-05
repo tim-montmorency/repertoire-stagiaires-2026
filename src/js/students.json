@@ -108,18 +108,6 @@
     "cv": "./src/cv/ghariani_matis_cv.pdf"
   },
   {
-    "firstName": "Marie-Lili",
-    "lastName": "LAPRISE",
-    "photo": "./src/img/students/temp.webp",
-    "interests": ["Audio", "Design", "Jeux Vidéo"],
-    "telephone": "123-456-7890",
-    "email": "temp@gmail.com",
-    "location": "Montréal, QC",
-    "linkedin": "https://temp.com",
-    "portfolio": "https://temp.com",
-    "cv": "./src/cv/laprise_marie_lili_cv.pdf"
-  },
-  {
     "firstName": "Manel",
     "lastName": "YAYA",
     "photo": "./src/img/students/yaya_manel.webp",
@@ -214,18 +202,6 @@
     "linkedin": "https://www.linkedin.com/in/saloumijad/",
     "portfolio": "https://jad2087.github.io/portfolio-jad-saloumi/",
     "cv": "./src/cv/saloumi_jad_cv.pdf"
-  },
-  {
-    "firstName": "Keven",
-    "lastName": "MALRIC",
-    "photo": "./src/img/students/temp.webp",
-    "interests": ["Audio", "Design", "Jeux Vidéo"],
-    "telephone": "123-456-7890",
-    "email": "temp@gmail.com",
-    "location": "Montréal, QC",
-    "linkedin": "https://temp.com",
-    "portfolio": "https://temp.com",
-    "cv": "./src/cv/malric_keven_cv.pdf"
   },
   {
     "firstName": "Radhouane",
@@ -331,7 +307,7 @@
     "telephone": "438-389-3666",
     "email": "kristymoussally@gmail.com",
     "location": "Laval, QC",
-    "linkedin": "www.linkedin.com/in/kristy-moussally-83565b397",
+    "linkedin": "https://www.linkedin.com/in/kristy-moussally-83565b397/",
     "portfolio": "https://kristymoussally.github.io/portfolio/",
     "cv": "./src/cv/moussally_kristy_cv.pdf"
   },
