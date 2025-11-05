@@ -1,79 +1,177 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <title>Répertoire Stagiaires</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="./src/css/styles.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+  </head>
+  <body>
     <div id="app">
-        <header>
-            <nav>
-                <div class="section-title">
-                    <h2 class="logo">TIM.</h2>
-                    <h2 class="title">*RÉPERTOIRE DES STAGIAIRES*</h2>
-                    <h2 class="year">2026</h2>
-                </div>
-                <div class="section-search">
-                    <div class="wrapper-input">
-                        <i class="fas fa-search icon"></i>
-                        <input type="text" placeholder="Rechercher..." v-model="searchResult">
-                    </div>
-                </div>
-                <div class="wrapper-menu">
-                    <div class="wrapper-burger-menu">
-                        <button @click="selectedCategory='Tout'" :class="{selected: selectedCategory == 'Tout'}">TOUT</button>
-                        <button @click="selectedCategory='Animation 3D'" :class="{selected: selectedCategory == 'Animation 3D'}">ANIMATION 3D</button>
-                        <button @click="selectedCategory='Modelisation 3D'" :class="{selected: selectedCategory == 'Modelisation 3D'}">MODELISATION 3D</button>
-                        <button @click="selectedCategory='Vidéo'" :class="{selected: selectedCategory == 'Vidéo'}">VIDÉO</button>
-                        <button @click="selectedCategory='Design'" :class="{selected: selectedCategory == 'Design'}">DESIGN</button>
-                        <button @click="selectedCategory='Design Web'" :class="{selected: selectedCategory == 'Design Web'}">DESIGN WEB</button>
-                        <button @click="selectedCategory='Web'" :class="{selected: selectedCategory == 'Web'}">WEB</button>
-                        <button @click="selectedCategory='Animation 2D'" :class="{selected: selectedCategory == 'Animation 2D'}">ANIMATION 2D</button>
-                        <button @click="selectedCategory='Installation Numérique'" :class="{selected: selectedCategory == 'Installation Numérique'}">INSTALLATION</button>
-                        <button @click="selectedCategory='Jeux Vidéo'" :class="{selected: selectedCategory == 'Jeux Vidéo'}">JEUX VIDÉO</button>
-                        <button @click="selectedCategory='Audio'" :class="{selected: selectedCategory == 'Audio'}">AUDIO</button>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <h1>STAGIAIRES*</h1>
-            <h2>Les stages se déroulent du: 30 Mars au 15 Mai 2026<br>Les étudiants sont disponibles 4 à 5 jours par semaine 32 hrs / semaine</h2>
-            <div class="wrapper-background">
-                <transition-group name="cards" tag="div" class="wrapper-students">
-                    <template v-for="student in students">
-                        <div class="student-card" v-if="(selectedCategory === 'Tout' || student.interests.some(interest => interest === selectedCategory)) && (searchResult === '' || student.firstName.toLowerCase().includes(searchResult.toLowerCase()) || student.lastName.toLowerCase().includes(searchResult.toLowerCase()) || student.interests.some(interest => interest.toLowerCase().includes(searchResult.toLowerCase())))">
-                        <img :src="student.photo" :alt="`${student.firstName} ${student.lastName} photo`">
-                        <p class="name">{{student.firstName}}<br>{{student.lastName}}</p>
-                        <div class="wrapper-interests">
-                            <p class="interests" v-for="interest in student.interests" :class="{'category-selected': interest === selectedCategory}">{{ interest }}</p>
-                        </div>
-                        <div class="wrapper-contacts">
-                            <i class="fas fa-phone icon"></i>{{student.telephone}} <br>
-                            <a :href="'mailto:' + student.email"><i class="fas fa-envelope icon"></i>{{student.email}}</a><br>
-                            <i class="fas fa-location-dot icon"></i>{{student.location}}
-                        </div>
-                        <div class="wrapper-documents">
-                            <a :href="student.linkedin" target="_blank"><i class="fas fa-globe icon"></i>Linkedin</a><br>
-                            <a :href="student.portfolio" target="_blank"><i class="fas fa-globe icon"></i>Portfolio</a><br>
-                            <a :href="student.cv" target="_blank"><i class="fas fa-file icon"></i>CV</a>
-                        </div>
-                    </div>
-                    </template>
-                </transition-group>
-                <p class="no-results" v-if="!students.some(student => (selectedCategory === 'Tout' || student.interests.some(interest => interest === selectedCategory)) && (searchResult === '' || student.firstName.toLowerCase().includes(searchResult.toLowerCase()) || student.lastName.toLowerCase().includes(searchResult.toLowerCase()) || student.interests.some(interest => interest.toLowerCase().includes(searchResult.toLowerCase()) )) )">Aucun Résultats</p>
+      <header>
+        <nav>
+          <div class="section-title">
+            <h2 class="logo">TIM.</h2>
+            <h2 class="title">*RÉPERTOIRE DES STAGIAIRES*</h2>
+            <h2 class="year">2026</h2>
+          </div>
+          <div class="section-search">
+            <div class="wrapper-input">
+              <i class="fas fa-search icon"></i>
+              <input
+                type="text"
+                placeholder="Rechercher..."
+                v-model="searchResult"
+              />
             </div>
-        </main>
-        <footer>© 2025 Collège Montmorency, Tous droits réservés.</footer>
+          </div>
+          <div class="wrapper-menu">
+            <div class="wrapper-burger-menu">
+              <button
+                @click="selectedCategory='Tout'"
+                :class="{selected: selectedCategory == 'Tout'}"
+              >
+                TOUT
+              </button>
+              <button
+                @click="selectedCategory='Animation 3D'"
+                :class="{selected: selectedCategory == 'Animation 3D'}"
+              >
+                ANIMATION 3D
+              </button>
+              <button
+                @click="selectedCategory='Modélisation 3D'"
+                :class="{selected: selectedCategory == 'Modélisation 3D'}"
+              >
+                MODELISATION 3D
+              </button>
+              <button
+                @click="selectedCategory='Vidéo'"
+                :class="{selected: selectedCategory == 'Vidéo'}"
+              >
+                VIDÉO
+              </button>
+              <button
+                @click="selectedCategory='Design'"
+                :class="{selected: selectedCategory == 'Design'}"
+              >
+                DESIGN
+              </button>
+              <button
+                @click="selectedCategory='Design Web'"
+                :class="{selected: selectedCategory == 'Design Web'}"
+              >
+                DESIGN WEB
+              </button>
+              <button
+                @click="selectedCategory='Web'"
+                :class="{selected: selectedCategory == 'Web'}"
+              >
+                WEB
+              </button>
+              <button
+                @click="selectedCategory='Animation 2D'"
+                :class="{selected: selectedCategory == 'Animation 2D'}"
+              >
+                ANIMATION 2D
+              </button>
+              <button
+                @click="selectedCategory='Installation Numérique'"
+                :class="{selected: selectedCategory == 'Installation Numérique'}"
+              >
+                INSTALLATION
+              </button>
+              <button
+                @click="selectedCategory='Jeux Vidéo'"
+                :class="{selected: selectedCategory == 'Jeux Vidéo'}"
+              >
+                JEUX VIDÉO
+              </button>
+              <button
+                @click="selectedCategory='Audio'"
+                :class="{selected: selectedCategory == 'Audio'}"
+              >
+                AUDIO
+              </button>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <h1>STAGIAIRES*</h1>
+        <h2>
+          Les stages se déroulent du: 30 Mars au 15 Mai 2026<br />Les étudiants
+          sont disponibles 4 à 5 jours par semaine 32 hrs / semaine
+        </h2>
+        <div class="wrapper-background">
+          <transition-group name="cards" tag="div" class="wrapper-students">
+            <template v-for="student in students">
+              <div
+                class="student-card"
+                v-if="(selectedCategory === 'Tout' || student.interests.some(interest => interest === selectedCategory)) && (searchResult === '' || student.firstName.toLowerCase().includes(searchResult.toLowerCase()) || student.lastName.toLowerCase().includes(searchResult.toLowerCase()) || student.interests.some(interest => interest.toLowerCase().includes(searchResult.toLowerCase())))"
+              >
+                <img
+                  :src="student.photo"
+                  :alt="`${student.firstName} ${student.lastName} photo`"
+                />
+                <p class="name">
+                  {{student.firstName}}<br />{{student.lastName}}
+                </p>
+                <div class="wrapper-interests">
+                  <p
+                    class="interests"
+                    v-for="interest in student.interests"
+                    :class="{'category-selected': interest === selectedCategory}"
+                  >
+                    {{ interest }}
+                  </p>
+                </div>
+                <div class="wrapper-contacts">
+                  <i class="fas fa-phone icon"></i>{{student.telephone}} <br />
+                  <a :href="'mailto:' + student.email"
+                    ><i class="fas fa-envelope icon"></i>{{student.email}}</a
+                  ><br />
+                  <i class="fas fa-location-dot icon"></i>{{student.location}}
+                </div>
+                <div class="wrapper-documents">
+                  <a :href="student.linkedin" target="_blank"
+                    ><i class="fas fa-globe icon"></i>Linkedin</a
+                  ><br />
+                  <a :href="student.portfolio" target="_blank"
+                    ><i class="fas fa-globe icon"></i>Portfolio</a
+                  ><br />
+                  <a :href="student.cv" target="_blank"
+                    ><i class="fas fa-file icon"></i>CV</a
+                  >
+                </div>
+              </div>
+            </template>
+          </transition-group>
+          <p
+            class="no-results"
+            v-if="!students.some(student => (selectedCategory === 'Tout' || student.interests.some(interest => interest === selectedCategory)) && (searchResult === '' || student.firstName.toLowerCase().includes(searchResult.toLowerCase()) || student.lastName.toLowerCase().includes(searchResult.toLowerCase()) || student.interests.some(interest => interest.toLowerCase().includes(searchResult.toLowerCase()) )) )"
+          >
+            Aucun Résultats
+          </p>
+        </div>
+      </main>
+      <footer>© 2025 Collège Montmorency, Tous droits réservés.</footer>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="./src/js/scripts.js"></script>
-</body>
+  </body>
 </html>
