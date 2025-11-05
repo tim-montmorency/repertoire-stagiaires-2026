@@ -231,12 +231,12 @@
     "firstName": "Mégane",
     "lastName": "RANGER",
     "photo": "./src/img/students/megane_ranger.webp",
-    "interests": ["Audio", "Design", "Jeux Vidéo"],
-    "telephone": "123-456-7890",
-    "email": "temp@gmail.com",
-    "location": "Montréal, QC",
-    "linkedin": "https://temp.com",
-    "portfolio": "https://temp.com",
+    "interests": ["Design", "Design Web", "Web"],
+    "telephone": "514-912-8184",
+    "email": "megane.ranger@icloud.com",
+    "location": "Laval, QC",
+    "linkedin": "https://www.linkedin.com/in/meganeranger/",
+    "portfolio": "https://meganeranger.github.io/portfolio-megane-ranger/",
     "cv": "./src/cv/ranger_megane_cv.pdf"
   },
   {
