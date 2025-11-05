@@ -250,7 +250,7 @@ main h2 {
 }
 
 .wrapper-contacts {
-    font-size: 1vw;
+    font-size: 0.88vw;
     grid-column-start: 2;
     grid-row-start: 3;
     font-family: "Archivo";
@@ -260,13 +260,14 @@ main h2 {
 }
 
 .wrapper-documents {
-    font-size: 1vw;
+    font-size: 0.88vw;
     grid-column-start: 3;
     grid-row-start: 3;
     font-family: "Archivo";
     font-weight: 100;
     align-self: end;
     color: var(--accent-color);
+    margin-left: 1vw;
 }
 
 .wrapper-contacts *, .wrapper-documents *, .wrapper-interests * {
@@ -372,11 +373,12 @@ footer {
     }
     
     .wrapper-contacts {
-        font-size: 2.7vw;
+        font-size: 2.2vw;
     }
     
     .wrapper-documents {
-        font-size: 2.7vw;
+        font-size: 2.2vw;
+        margin-left: 3vw;
     }
     
     .wrapper-contacts *, .wrapper-documents *, .wrapper-interests * {
