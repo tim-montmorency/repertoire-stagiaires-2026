@@ -187,7 +187,7 @@
     "telephone": "N/A",
     "email": "jade.hebert@gmail.com",
     "location": "Blainville, QC",
-    "linkedin": "www.linkedin.com/in/jade-marie-sonia-hebert-0958562b9",
+    "linkedin": "https://www.linkedin.com/in/jade-hebert-0958562b9/",
     "portfolio": "https://jadoooooou.github.io/portfolio-jade-hebert/",
     "cv": "./src/cv/hebert_jade_cv.pdf"
   },
@@ -295,7 +295,7 @@
     "telephone": "514-247-6971",
     "email": "bferland.contact@gmail.com",
     "location": "Terrebonne, QC",
-    "linkedin": "www.linkedin.com/in/ benjamin-ferland",
+    "linkedin": "https://www.linkedin.com/in/benjamin-ferland/",
     "portfolio": "https://benjaminferland.github.io/portfolio-benjamin-ferland/",
     "cv": "./src/cv/ferland_benjamin_cv.pdf"
   },
