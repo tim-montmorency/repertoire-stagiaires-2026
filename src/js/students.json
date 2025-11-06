@@ -283,7 +283,7 @@
     "telephone": "438 351-2295",
     "email": "saavedratorranod@gmail.com",
     "location": "Laval, QC",
-    "linkedin": "https://temp.com",
+    "linkedin": "https://www.linkedin.com/in/dana-saavedra-torrano/",
     "portfolio": "https://d4n40.github.io/portfolio-dana-saavedratorrano/",
     "cv": "./src/cv/saavedra_torrano_dana_cv.pdf"
   },
@@ -316,11 +316,11 @@
     "lastName": "LACH",
     "photo": "./src/img/students/thearylou_lach.webp",
     "interests": ["Web", "Installation Numérique", "Design Web"],
-    "telephone": "123-456-7890",
-    "email": "temp@gmail.com",
-    "location": "Montréal, QC",
-    "linkedin": "https://temp.com",
-    "portfolio": "https://temp.com",
+    "telephone": "514-653-9195",
+    "email": "thearylou@gmail.com",
+    "location": "Laval, QC",
+    "linkedin": "https://www.linkedin.com/in/thearylou-lach/",
+    "portfolio": "https://thearyl.github.io/portfolio-thearylou-lach/",
     "cv": "./src/cv/lach_thearylou_cv.pdf"
   }
 ]
